@@ -22,7 +22,7 @@ dl.map_lwc a, dl.map_lec a {
 
 
 dl.map_lwc a.available, dl.map_lec a.available { background: url(../images/available_large.gif) no-repeat; }
-dl.map_lwc a.unavailable, dl.map_lec a.unavailable { background: url(../images/unavailable_large.gif) no-repeat; }
+dl.map_lwc a.unavailable, dl.map_lec a.unavailable { background: url(../images/in-use_large.gif) no-repeat; }
 dl.map_lwc a.in-use, dl.map_lec a.in-use { background: url(../images/in-use_large.gif) no-repeat; }
 
 /* !LWC Coordinates*/
@@ -127,11 +127,11 @@ dl.map_lwc a#tss-lwc067 { top: 614px; left: 350px; }
 dl.map_lwc a#tss-lwc068 { top: 674px; left: 350px; }
 
 /* Horseshoe 1, counter-clockwise */
-dl.map_lwc a#tss-lwc069 { top: 674px; left: 184px; }
-dl.map_lwc a#tss-lwc070 { top: 614px; left: 184px; }
-dl.map_lwc a#tss-lwc071 { top: 614px; left: 108px; }
-dl.map_lwc a#tss-lwc072 { top: 614px; left: 32px; }
-dl.map_lwc a#tss-lwc073 { top: 674px; left: 32px; }
+dl.map_lwc a#ats-lwc069 { top: 614px; left: 276px; }
+dl.map_lwc a#ats-lwc070 { top: 614px; left: 216px; }
+dl.map_lwc a#ats-lwc071 { top: 614px; left: 156px; }
+dl.map_lwc a#ats-lwc072 { top: 614px; left: 96px; }
+dl.map_lwc a#ats-lwc073 { top: 614px; left: 36px; }
 
 /* Consultation, Left to Right -- Uninstalled */
 /*
@@ -143,7 +143,7 @@ dl.map_lwc a#tss-lwccc01 { top: -9999px; left: -9999px; display: none; }
 
 /* Scanner and UA */
 dl.map_lwc a#tss-lwc-scanner { top: 494px; left: 1317px; }
-dl.map_lwc a#tss-lwcua { top: 240px; left: 681px; }
+dl.map_lwc a#tss-lwcua { top: 240px; left: 681px; background-image: url(../images/map-app_large.gif) no-repeat;}
 /* LWC */
 
 /* !LEC Coordinates */

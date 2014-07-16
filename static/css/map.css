@@ -34,7 +34,7 @@ dl.map_lwc a, dl.map_lec a {
 }
 
 dl.map_lwc a.available, dl.map_lec a.available { background: url(../images/available.gif) no-repeat; }
-dl.map_lwc a.unavailable, dl.map_lec a.unavailable { background: url(../images/unavailable.gif) no-repeat; }
+dl.map_lwc a.unavailable, dl.map_lec a.unavailable { background: url(../images/in-use.gif) no-repeat; }
 dl.map_lwc a.in-use, dl.map_lec a.in-use { background: url(../images/in-use.gif) no-repeat; }
 
 /* !LWC Coordinates*/
@@ -114,15 +114,15 @@ dl.map_lwc a#tss-lwc048 { top: 250px; left: 672px; display: block; }
 dl.map_lwc a#tss-lwc050 { top: 16px; left: 320px; display: block; }
 dl.map_lwc a#tss-lwc049 { top: 16px; left: 424px; display: block; }
 
-/* Horseshoe 4, counter-clockwise */
+/* Horseshoe 3, counter-clockwise */
 dl.map_lwc a#tss-lwc051 { top: 364px; left: 736px; display: block; }
 dl.map_lwc a#tss-lwc052 { top: 331px; left: 736px; display: block; }
-dl.map_lwc a#tss-lwc053 { top: 331px; left: 707px; display: block; }
-dl.map_lwc a#tss-lwc054 { top: 331px; left: 679px; display: block; }
+dl.map_lwc a#tss-lwc054 { top: 331px; left: 693px; display: block; }
 dl.map_lwc a#tss-lwc055 { top: 331px; left: 650px; display: block; }
 dl.map_lwc a#tss-lwc056 { top: 364px; left: 650px; display: block; }
 
-/* Horseshoe 3, counter-clockwise */
+
+/* Horseshoe 2, counter-clockwise */
 dl.map_lwc a#tss-lwctcs01 { top: 364px; left: 558px; display: block; }
 dl.map_lwc a#tss-lwctcs02 { top: 331px; left: 558px; display: block; }
 dl.map_lwc a#tss-lwctcs03 { top: 331px; left: 529px; display: block; }
@@ -130,32 +130,33 @@ dl.map_lwc a#tss-lwctcs04 { top: 331px; left: 501px; display: block; }
 dl.map_lwc a#tss-lwctcs05 { top: 331px; left: 472px; display: block; }
 dl.map_lwc a#tss-lwctcs06 { top: 364px; left: 472px; display: block; }
 
-/* Horseshoe 2, counter-clockwise */
-dl.map_lwc a#tss-lwc063 { top: 364px; left: 272px; display: block; }
-dl.map_lwc a#tss-lwc064 { top: 331px; left: 272px; display: block; }
-dl.map_lwc a#tss-lwc065 { top: 331px; left: 243px; display: block; }
-dl.map_lwc a#tss-lwc066 { top: 331px; left: 215px; display: block; }
-dl.map_lwc a#tss-lwc067 { top: 331px; left: 186px; display: block; }
-dl.map_lwc a#tss-lwc068 { top: 364px; left: 186px; display: block; }
-
 /* Horseshoe 1, counter-clockwise */
-dl.map_lwc a#tss-lwc069 { top: 364px; left: 94px; display: block; }
-dl.map_lwc a#tss-lwc070 { top: 331px; left: 94px; display: block; }
-dl.map_lwc a#tss-lwc071 { top: 331px; left: 51px; display: block; }
-dl.map_lwc a#tss-lwc072 { top: 331px; left: 8px; display: block; }
-dl.map_lwc a#tss-lwc073 { top: 364px; left: 8px; display: block; }
+dl.map_lwc a#tss-lwc063 { top: 364px; left: 307px; display: block; }
+dl.map_lwc a#tss-lwc064 { top: 331px; left: 307px; display: block; }
+dl.map_lwc a#tss-lwc065 { top: 331px; left: 278px; display: block; }
+dl.map_lwc a#tss-lwc066 { top: 331px; left: 250px; display: block; }
+dl.map_lwc a#tss-lwc067 { top: 331px; left: 221px; display: block; }
+dl.map_lwc a#tss-lwc068 { top: 364px; left: 221px; display: block; }
+
+/* V-Lab Line */
+dl.map_lwc a#tss-lwc053 { top: 331px; left: 133px; display: block; }
+dl.map_lwc a#tss-lwc069 { top: 331px; left: 107px; display: block; }
+dl.map_lwc a#tss-lwc070 { top: 331px; left: 81px; display: block; }
+dl.map_lwc a#tss-lwc071 { top: 331px; left: 55px; display: block; }
+dl.map_lwc a#tss-lwc072 { top: 331px; left: 29px; display: block; }
+dl.map_lwc a#tss-lwc073 { top: 331px; left: 3px; display: block; }
+
 
 /* Consultation, Left to Right -- Uninstalled */
-/*
 dl.map_lwc a#tss-lwccc04 { top: -9999px; left: -9999px; display: none; }
 dl.map_lwc a#tss-lwccc03 { top: -9999px; left: -9999px; display: none; }
 dl.map_lwc a#tss-lwccc02 { top: -9999px; left: -9999px; display: none; }
 dl.map_lwc a#tss-lwccc01 { top: -9999px; left: -9999px; display: none; }
-*/
+
 
 /* Scanner and UA */
-dl.map_lwc a#tss-lwc-scanner { top: 268px; left: 730px; display: block; }
-dl.map_lwc a#tss-lwcua { top: 120px; left: 372px; display: block; }
+/* dl.map_lwc a#tss-lwc-scanner { top: 268px; left: 730px; display: block; } */
+dl.map_lwc a#tss-lwcua { top: 120px; left: 372px; display: block; background: url(../images/map-app.gif) no-repeat;}
 /* LWC */
 
 /* !LEC Coordinates */
@@ -201,12 +202,12 @@ dl.map_lec a#tss-lec025 { top: 452px; left: 578px; display: block; }
 dl.map_lec a#tss-lec026 { top: 420px; left: 640px; display: block; }
 
 
-/* Long Table 3, left to right, top to bottom */
-dl.map_lec a#tss-lec027 { top: 496px; left: 450px; display: block; }
-dl.map_lec a#tss-lec028 { top: 496px; left: 613px; display: block; }
+/* Lower Right Quadrant, left row  */
+dl.map_lec a#tss-lec027 { top: 496px; left: 350px; display: block; }
+dl.map_lec a#tss-lec030 { top: 545px; left: 350px; display: block; }
 
-dl.map_lec a#tss-lec030 { top: 545px; left: 450px; display: block; }
-dl.map_lec a#tss-lec029 { top: 545px; left: 613px; display: block; }
+dl.map_lec a#tss-lec028 { top: 396px; left: 350px; display: block; }
+dl.map_lec a#tss-lec029 { top: 445px; left: 350px; display: block; }
 
 /* Walk-ups, top to bottom */
 dl.map_lec a#tss-lwctc04 { top: 300px; left: 356px; display: block; }
