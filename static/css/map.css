@@ -1,4 +1,4 @@
-/* !Map Styles */
+/* !Map Styles for small/web map */
 dl.map_lwc, dl.map_lec {
   margin: 0 auto;
   padding: 0;
@@ -37,130 +37,129 @@ dl.map_lwc a.available, dl.map_lec a.available { background: url(../images/avail
 dl.map_lwc a.unavailable, dl.map_lec a.unavailable { background: url(../images/in-use.gif) no-repeat; }
 dl.map_lwc a.in-use, dl.map_lec a.in-use { background: url(../images/in-use.gif) no-repeat; }
 
-/* !LWC Coordinates*/
-/* Row 1, Top to Bottom */
+/******* !LWC (West) Coordinates  ********/
+
+/* First row across Top of map, mostly iMacs, from left to right */
+dl.map_lwc a#tss-lwcmac1 { top: 16px; left: 35px; display: block; }
+dl.map_lwc a#tss-lwcmac2 { top: 16px; left: 89px; display: block; }
+dl.map_lwc a#tss-lwcmac3 { top: 16px; left: 192px; display: block; }
+dl.map_lwc a#tss-lwcmac4 { top: 16px; left: 235px; display: block; }
+dl.map_lwc a#tss-lwcmac5 { top: 16px; left: 278px; display: block; }
+dl.map_lwc a#tss-lwc050 { top: 16px; left: 320px; display: block; } /* PC */
+dl.map_lwc a#tss-lwc049 { top: 16px; left: 424px; display: block; } /* PC */
+dl.map_lwc a#tss-lwcmac6 { top: 16px; left: 466px; display: block; }
+dl.map_lwc a#tss-lwcmac7 { top: 16px; left: 509px; display: block; }
+dl.map_lwc a#tss-lwcmac8 { top: 16px; left: 552px; display: block; }
+dl.map_lwc a#tss-lwcmac9 { top: 16px; left: 655px; display: block; }
+dl.map_lwc a#tss-lwcmac10 { top: 16px; left: 709px; display: block; }
+
+/* Scanner and UA */
+/* dl.map_lwc a#tss-lwc-scanner { top: 268px; left: 730px; display: block; } */
+dl.map_lwc a#tss-lwcua { top: 120px; left: 372px; display: block; background: url(../images/map-app.gif) no-repeat;}
+
+/* Middle Column 1 from Left side of map, Top to Bottom */
 dl.map_lwc a#tss-lwc004 { top: 106px; left: 72px; display: block; }
 dl.map_lwc a#tss-lwc003 { top: 154px; left: 72px; display: block; }
 dl.map_lwc a#tss-lwc002 { top: 202px; left: 72px; display: block; }
 dl.map_lwc a#tss-lwc001 { top: 250px; left: 72px; display: block; }
 
-/* Row 2, Top to Bottom */
+/* Middle Column 2 from Left side of map, Top to Bottom */
 dl.map_lwc a#tss-lwc005 { top: 106px; left: 112px; display: block; }
 dl.map_lwc a#tss-lwc006 { top: 154px; left: 112px; display: block; }
 dl.map_lwc a#tss-lwc007 { top: 202px; left: 112px; display: block; }
 dl.map_lwc a#tss-lwc008 { top: 250px; left: 112px; display: block; }
 
-/* Row 3, Top to Bottom */
+/* Middle Column 3 from Left side of map, Top to Bottom */
 dl.map_lwc a#tss-lwc012 { top: 106px; left: 168px; display: block; }
 dl.map_lwc a#tss-lwc011 { top: 154px; left: 168px; display: block; }
 dl.map_lwc a#tss-lwc010 { top: 202px; left: 168px; display: block; }
 dl.map_lwc a#tss-lwc009 { top: 250px; left: 168px; display: block; }
 
-/* Row 4, Top to Bottom */
+/* Middle Column 4 from Left side of map, Top to Bottom */
 dl.map_lwc a#tss-lwc013 { top: 106px; left: 208px; display: block; }
 dl.map_lwc a#tss-lwc014 { top: 154px; left: 208px; display: block; }
 dl.map_lwc a#tss-lwc015 { top: 202px; left: 208px; display: block; }
 dl.map_lwc a#tss-lwc016 { top: 250px; left: 208px; display: block; }
 
-/* Row 5, Top to Bottom */
+/* Middle Column 5 from Left side of map, Top to Bottom */
 dl.map_lwc a#tss-lwc020 { top: 106px; left: 262px; display: block; }
 dl.map_lwc a#tss-lwc019 { top: 154px; left: 262px; display: block; }
 dl.map_lwc a#tss-lwc018 { top: 202px; left: 262px; display: block; }
 dl.map_lwc a#tss-lwc017 { top: 250px; left: 262px; display: block; }
 
-/* Row 6, Top to Bottom */
+/* Middle Column 6 from Left side of map, Top to Bottom */
 dl.map_lwc a#tss-lwc021 { top: 106px; left: 302px; display: block; }
 dl.map_lwc a#tss-lwc022 { top: 154px; left: 302px; display: block; }
 dl.map_lwc a#tss-lwc023 { top: 202px; left: 302px; display: block; }
 dl.map_lwc a#tss-lwc024 { top: 250px; left: 302px; display: block; }
 
-/* Row 7, Top to Bottom */
+/* Middle Column 7 from Left side of map, Top to Bottom */
 dl.map_lwc a#tss-lwc028 { top: 106px; left: 442px; display: block; }
 dl.map_lwc a#tss-lwc027 { top: 154px; left: 442px; display: block; }
 dl.map_lwc a#tss-lwc026 { top: 202px; left: 442px; display: block; }
 dl.map_lwc a#tss-lwc025 { top: 250px; left: 442px; display: block; }
 
-/* Row 8, Top to Bottom */
+/* Middle Column 8 from Left side of map, Top to Bottom */
 dl.map_lwc a#tss-lwc029 { top: 106px; left: 482px; display: block; }
 dl.map_lwc a#tss-lwc030 { top: 154px; left: 482px; display: block; }
 dl.map_lwc a#tss-lwc031 { top: 202px; left: 482px; display: block; }
 dl.map_lwc a#tss-lwc032 { top: 250px; left: 482px; display: block; }
 
-/* Row 9, Top to Bottom */
+/* Middle Column 9 from Left side of map, Top to Bottom */
 dl.map_lwc a#tss-lwc036 { top: 106px; left: 536px; display: block; }
 dl.map_lwc a#tss-lwc035 { top: 154px; left: 536px; display: block; }
 dl.map_lwc a#tss-lwc034 { top: 202px; left: 536px; display: block; }
 dl.map_lwc a#tss-lwc033 { top: 250px; left: 536px; display: block; }
 
-/* Row 10, Top to Bottom */
+/* Middle Column 10 from Left side of map, Top to Bottom */
 dl.map_lwc a#tss-lwc037 { top: 106px; left: 576px; display: block; }
 dl.map_lwc a#tss-lwc038 { top: 154px; left: 576px; display: block; }
 dl.map_lwc a#tss-lwc039 { top: 202px; left: 576px; display: block; }
 dl.map_lwc a#tss-lwc040 { top: 250px; left: 576px; display: block; }
 
-/* Row 11, Top to Bottom */
+/* Middle Column 11 from Left side of map, Top to Bottom */
 dl.map_lwc a#tss-lwc044 { top: 106px; left: 632px; display: block; }
 dl.map_lwc a#tss-lwc043 { top: 154px; left: 632px; display: block; }
 dl.map_lwc a#tss-lwc042 { top: 202px; left: 632px; display: block; }
 dl.map_lwc a#tss-lwc041 { top: 250px; left: 632px; display: block; }
 
-/* Row 12, Top to Bottom */
+/* Middle Column 12 from Left side of map, Top to Bottom */
 dl.map_lwc a#tss-lwc045 { top: 106px; left: 672px; display: block; }
 dl.map_lwc a#tss-lwc046 { top: 154px; left: 672px; display: block; }
 dl.map_lwc a#tss-lwc047 { top: 202px; left: 672px; display: block; }
 dl.map_lwc a#tss-lwc048 { top: 250px; left: 672px; display: block; }
 
-/* Behind UA's desk */
-dl.map_lwc a#tss-lwc050 { top: 16px; left: 320px; display: block; }
-dl.map_lwc a#tss-lwc049 { top: 16px; left: 424px; display: block; }
+/* Horseshoe 1 from Left side of map, 
+counter-clockwise from bottom right of horseshoe */
+dl.map_lwc a#tss-lwc069 { top: 364px; left: 307px; display: block; }
+dl.map_lwc a#tss-lwc070 { top: 331px; left: 307px; display: block; }
+dl.map_lwc a#tss-lwc071 { top: 331px; left: 278px; display: block; }
+dl.map_lwc a#tss-lwc072 { top: 331px; left: 250px; display: block; }
+dl.map_lwc a#tss-lwc073 { top: 331px; left: 221px; display: block; }
+dl.map_lwc a#tss-lwc074 { top: 364px; left: 221px; display: block; }
 
-/* Horseshoe 3, counter-clockwise */
+/* Horseshoe 2 from Left side of map, 
+counter-clockwise from bottom right of horseshoe */
+dl.map_lwc a#tss-lwc063 { top: 364px; left: 558px; display: block; }
+dl.map_lwc a#tss-lwc064 { top: 331px; left: 558px; display: block; }
+dl.map_lwc a#tss-lwc065 { top: 331px; left: 529px; display: block; }
+dl.map_lwc a#tss-lwc066 { top: 331px; left: 501px; display: block; }
+dl.map_lwc a#tss-lwc067 { top: 331px; left: 472px; display: block; }
+dl.map_lwc a#tss-lwc068 { top: 364px; left: 472px; display: block; }
+
+/* Horseshoe 3 from Left side of map, 
+counter-clockwise from bottom right of horseshoe */
 dl.map_lwc a#tss-lwc051 { top: 364px; left: 736px; display: block; }
 dl.map_lwc a#tss-lwc052 { top: 331px; left: 736px; display: block; }
+dl.map_lwc a#tss-lwc053 { top: 331px; left: 707px; display: block; }
 dl.map_lwc a#tss-lwc054 { top: 331px; left: 693px; display: block; }
 dl.map_lwc a#tss-lwc055 { top: 331px; left: 650px; display: block; }
 dl.map_lwc a#tss-lwc056 { top: 364px; left: 650px; display: block; }
 
+/******* !LEC (East) Coordinates  ********/
 
-/* Horseshoe 2, counter-clockwise */
-dl.map_lwc a#tss-lwctcs01 { top: 364px; left: 558px; display: block; }
-dl.map_lwc a#tss-lwctcs02 { top: 331px; left: 558px; display: block; }
-dl.map_lwc a#tss-lwctcs03 { top: 331px; left: 529px; display: block; }
-dl.map_lwc a#tss-lwctcs04 { top: 331px; left: 501px; display: block; }
-dl.map_lwc a#tss-lwctcs05 { top: 331px; left: 472px; display: block; }
-dl.map_lwc a#tss-lwctcs06 { top: 364px; left: 472px; display: block; }
-
-/* Horseshoe 1, counter-clockwise */
-dl.map_lwc a#tss-lwc063 { top: 364px; left: 307px; display: block; }
-dl.map_lwc a#tss-lwc064 { top: 331px; left: 307px; display: block; }
-dl.map_lwc a#tss-lwc065 { top: 331px; left: 278px; display: block; }
-dl.map_lwc a#tss-lwc066 { top: 331px; left: 250px; display: block; }
-dl.map_lwc a#tss-lwc067 { top: 331px; left: 221px; display: block; }
-dl.map_lwc a#tss-lwc068 { top: 364px; left: 221px; display: block; }
-
-/* V-Lab Line */
-dl.map_lwc a#tss-lwc053 { top: 331px; left: 133px; display: block; }
-dl.map_lwc a#tss-lwc069 { top: 331px; left: 107px; display: block; }
-dl.map_lwc a#tss-lwc070 { top: 331px; left: 81px; display: block; }
-dl.map_lwc a#tss-lwc071 { top: 331px; left: 55px; display: block; }
-dl.map_lwc a#tss-lwc072 { top: 331px; left: 29px; display: block; }
-dl.map_lwc a#tss-lwc073 { top: 331px; left: 3px; display: block; }
-
-
-/* Consultation, Left to Right -- Uninstalled */
-dl.map_lwc a#tss-lwccc04 { top: -9999px; left: -9999px; display: none; }
-dl.map_lwc a#tss-lwccc03 { top: -9999px; left: -9999px; display: none; }
-dl.map_lwc a#tss-lwccc02 { top: -9999px; left: -9999px; display: none; }
-dl.map_lwc a#tss-lwccc01 { top: -9999px; left: -9999px; display: none; }
-
-
-/* Scanner and UA */
-/* dl.map_lwc a#tss-lwc-scanner { top: 268px; left: 730px; display: block; } */
-dl.map_lwc a#tss-lwcua { top: 120px; left: 372px; display: block; background: url(../images/map-app.gif) no-repeat;}
-/* LWC */
-
-/* !LEC Coordinates */
-/* Triads 1 and 2, top to bottom, clockwise */
+/* Triads 1 and 2 from the top left of the map, 
+clockwise from top to bottom */
 dl.map_lec a#tss-lec006 { top: 8px; left: 42px; display: block; }
 dl.map_lec a#tss-lec005 { top: 64px; left: 70px; display: block; }
 dl.map_lec a#tss-lec004 { top: 64px; left: 15px; display: block; }
@@ -176,7 +175,8 @@ dl.map_lec a#tss-lec007 { top: 191px; left: 120px; display: block; }
 dl.map_lec a#tss-lec009 { top: 34px; left: 164px; display: block; }
 dl.map_lec a#tss-lec010 { top: 191px; left: 164px; display: block; }
 
-/* Triads 3 and 4, top to bottom, clockwise */
+/* Triads 3 and 4, from the top left of the map, 
+clockwise from top to bottom */
 dl.map_lec a#tss-lec016 { top: 8px; left: 242px; display: block; }
 dl.map_lec a#tss-lec015 { top: 64px; left: 270px; display: block; }
 dl.map_lec a#tss-lec014 { top: 64px; left: 215px; display: block; }
@@ -185,14 +185,15 @@ dl.map_lec a#tss-lec013 { top: 162px; left: 270px; display: block; }
 dl.map_lec a#tss-lec012 { top: 218px; left: 242px; display: block; }
 dl.map_lec a#tss-lec011 { top: 162px; left: 215px; display: block; }
 
-/* Long Table 2, left to right, top to bottom */
+/* Long Table 2, left to right from Left side of map, Top to Bottom */
 dl.map_lec a#tss-lec017 { top: 296px; left: 450px; display: block; }
 dl.map_lec a#tss-lec018 { top: 296px; left: 613px; display: block; }
 
 dl.map_lec a#tss-lec020 { top: 345px; left: 450px; display: block; }
 dl.map_lec a#tss-lec019 { top: 345px; left: 613px; display: block; }
 
-/* Triads 5 and 6, left to right, counter-clockwise */
+/* Triads 5 and 6, in bottom right of map, 
+starting from the leftmost triad, counter-clockwise from bottom right */
 dl.map_lec a#tss-lec021 { top: 390px; left: 482px; display: block; }
 dl.map_lec a#tss-lec022 { top: 420px; left: 424px; display: block; }
 dl.map_lec a#tss-lec023 { top: 452px; left: 482px; display: block; }
@@ -209,33 +210,3 @@ dl.map_lec a#tss-lec030 { top: 545px; left: 350px; display: block; }
 dl.map_lec a#tss-lec028 { top: 396px; left: 350px; display: block; }
 dl.map_lec a#tss-lec029 { top: 445px; left: 350px; display: block; }
 
-/* Walk-ups, top to bottom */
-dl.map_lec a#tss-lwctc04 { top: 300px; left: 356px; display: block; }
-dl.map_lec a#tss-lwctc05 { top: 346px; left: 356px; display: block; }
-dl.map_lec a#tss-lwctc02 { top: 400px; left: 348px; display: block; }
-dl.map_lec a#tss-lwctc03 { top: 446px; left: 348px; display: block; }
-dl.map_lec a#tss-lwctc06 { top: 500px; left: 356px; display: block; }
-dl.map_lec a#tss-lwctc01 { top: 546px; left: 356px; display: block; }
-
-/* Uninstalled */
-/*
-dl.map_lec a#tss-lec004 { top: -9999px; left: -9999px; display: none; }
-dl.map_lec a#tss-lec021 { top: -9999px; left: -9999px; display: none; }
-*/
-
-/* LEC */
-
-/* !iMac Coordinates */
-/* iMacs, left to right */
-dl.map_lwc a#tss-lwcimac01 { top: 16px; left: 35px; display: block; }
-dl.map_lwc a#tss-lwcimac02 { top: 16px; left: 89px; display: block; }
-dl.map_lwc a#tss-lwcimac03 { top: 16px; left: 192px; display: block; }
-dl.map_lwc a#tss-lwcimac04 { top: 16px; left: 235px; display: block; }
-dl.map_lwc a#tss-lwcimac05 { top: 16px; left: 278px; display: block; }
-dl.map_lwc a#tss-lwcimac06 { top: 16px; left: 466px; display: block; }
-dl.map_lwc a#tss-lwcimac07 { top: 16px; left: 509px; display: block; }
-dl.map_lwc a#tss-lwcimac08 { top: 16px; left: 552px; display: block; }
-dl.map_lwc a#tss-lwcimac09 { top: 16px; left: 655px; display: block; }
-dl.map_lwc a#tss-lwcimac10 { top: 16px; left: 709px; display: block; }
-
-/* iMac */
